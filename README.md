@@ -1,5 +1,5 @@
 ![logo](https://s3.amazonaws.com/sample-login/companies/avatars/000/003/559/original/AAEAAQAAAAAAAAlOAAAAJGIwNTkxMTBmLTU3MGYtNGE0MS1hMzVlLTc2MjdlZTRlY2ZkYQ.png?1506713937)
-# : Desafio de Desenvolvimento Golden Gate Tecnologia :
+# Desafio de Desenvolvimento Golden Gate Tecnologia
 
 ## Desafio:
 
