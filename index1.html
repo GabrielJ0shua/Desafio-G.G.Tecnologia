@@ -12,6 +12,22 @@
     </head>
     <body>
         <img src="./logo.png" alt="simbolo"/>
-    
+
+        <form action="cadastro.php" method="POST" autocomplete="on">
+            <label for="nome">Nome</label>
+            <input type="text" name="nome" required size="20" maxlength="60" autocomplete="family-name" placeholder="Insere seu nome..." autofocus>
+
+            <label for="email">E-mail</label>
+            <input type="email" name="email" required size="20" maxlength="60" autocomplete="email" placeholder="Insere seu email">
+
+            <label for="user">Usuário</label>
+            <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque um apelido">
+
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" required size="20" maxlength="60" placeholder="Coloque uma senha forte">
+
+            <input id="mandar" type="submit" value="Cadastrar" name="submeter">
+
+        </form>
     </body>
 </html>
