@@ -17,13 +17,20 @@
 
         <form action="logar.php" method="POST" autocomplete="on">
             <label for="user">Usuário</label>
-            <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque o Apelido">
+            <br>
+            <input type="text" name="user" required size="20" maxlength="60" autocomplete="given-name" placeholder="Coloque o Apelido" autofocus>
+            <br>
 
             <label for="senha">Senha</label>
+            <br>
             <input type="password" name="senha" required size="20" maxlength="60" placeholder="Agora sua senha">
+            <br>
+            <br>
+            <input id="mandar" type="submit" value="Entrar" name="logar">
+
+            <h3>Não é cadastradro? <a href="./index1.html">Registra-se</a> </h3>
         </form>
-        <button onclick="logar">Entrar</button><br>
-        Não é cadastradro? <a href="./index1.html">Registra-se</a>
+        
     
     </body>
 </html>
