@@ -1,7 +1,7 @@
 body {
     background: white;
     text-align: center;
-    font-family: sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     justify-items: center;
     align-items: center;
@@ -33,8 +33,9 @@ div form input{
 }
 
 #mandar,#conf{
+    border: 0;
     border-radius: 0.8rem;
-    background-color: orangered;
+    background-color: #ff2401;
     width: 10rem;
     height: 2rem;
     font-size: 1em;
